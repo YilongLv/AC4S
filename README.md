@@ -22,6 +22,11 @@ bash ./tools/dist_train.sh /mmdetection-master/configs/ac4s/ac4s_faster_rcnn_r50
 python tools/train.py /mmdetection-master/configs/ac4s/ac4s_faster_rcnn_r50_fpn_1x_ssdd.py
 
 ```
+## Performance
+Detector | Bbox mAP | Dataset | Checkpoint
+--- |:---:|:---:|:---:|:---:
+Faster R-CNN R50 | CSE-Autoloss-A | 96.3% | SSDD | [Link](https://pan.baidu.com/s/1Ij__W0w2x4EZlPLoqCUZRA?pwd=lyl1)
+Faster R-CNN R50 | CSE-Autoloss-A | 82.3% | HRSID | -
 
 ## Acknowledgement
 
