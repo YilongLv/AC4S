@@ -16,10 +16,10 @@ Please see [get_started.md](docs/get_started.md) for the basic usage of MMDetect
 ```
 
 # Training on multiple GPUs. eg: 8 GPUs
-bash ./tools/dist_train.sh /mmdetection-master/configs/ac4s/ac4s_faster_rcnn_r50_fpn_1x_ssdd 8
+bash ./tools/dist_train.sh /mmdetection-master/configs/ac4s/ac4s_faster_rcnn_r50_fpn_1x_ssdd.py 8
 
 # Training on a single GPU
-python tools/train.py /mmdetection-master/configs/ac4s/ac4s_faster_rcnn_r50_fpn_1x_ssdd
+python tools/train.py /mmdetection-master/configs/ac4s/ac4s_faster_rcnn_r50_fpn_1x_ssdd.py
 
 ```
 
